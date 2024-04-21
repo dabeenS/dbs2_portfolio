@@ -1,0 +1,150 @@
+@charset "uft-8";
+
+.sub1_port5 .cover {
+  background-image: url(../img/img-port1-5-cover.png);
+}
+
+.sub1_port5 .info h3 {
+  color: #550FD2;
+}
+
+.sub1_port5 .main._1 {
+  background-color: #550FD2;
+}
+
+.sub1_port5 .sub._1 {
+  background-color: #EADEFF;
+}
+
+.sub1_port5 .sub._2 {
+  background-color: #F8F7FA;
+}
+
+.sub1_port5 .main._2 {
+  background-color: #080808;
+}
+
+.sub1_port5 .sub._3 { 
+  background-color: #696969;
+}
+
+.sub1_port5 .sub._4 {
+  background-color: #A0A0A0;
+}
+
+.sub1_port5 .concept {
+  margin-bottom: 40px;
+}
+
+.sub1_port5 .concept h2 {
+  margin-bottom: 24px;
+}
+
+.sub1_port5 .img1 {
+  width: 50%;
+  max-width: 530px;
+  position: absolute;
+  top: 66px;
+  right: 0;
+  z-index: -1;
+}
+
+.sub1_port5 .img1 .mb {
+  display: none;
+}
+
+.sub1_port5 .concept .list > li {
+  max-width: 700px;
+  width: 62%;
+}
+
+
+.sub1_port5 .img2 {
+  width: 750px;
+  height: 560px;
+  margin: 0 auto;
+}
+
+.sub1_port5 .img3 {
+  width: 100%;
+  margin: 60px auto 0;
+}
+
+
+@media all and (max-width:1280px){
+
+  .sub1_port5 .concept {
+    margin-bottom: 80px;
+  }
+
+  .sub1_port5 .concept h2 {
+    margin-bottom: 24px;
+  }
+
+  .sub1_port5 .img1 {
+    width: 50%;
+    min-width: 360px;
+    top: 60px;
+  }
+
+  .sub1_port5 .concept .list > li {
+    width: 50%;
+  }
+
+  .sub1_port5 .img2 {
+    width: 80%;
+    max-width: 750px;
+    height: fit-content;
+  }
+
+}
+
+
+@media all and (max-width:768px){ 
+
+
+  .sub1_port5 .img1 {
+    position: relative;
+    width: 100%;
+    max-width: fit-content;
+    min-width: auto;
+    top: -24px;
+  }
+
+  .sub1_port5 .concept .list {
+    margin-top: -16px;
+  }
+
+  .sub1_port5 .concept .list li {
+    width: 100%;
+  }
+
+  .sub1_port5 .sub._2 {
+    display: none;
+  }
+
+  .sub1_port5 .sub._4 {
+    display: none;
+  }
+
+  .info .concept .font_img {
+    max-width: 100%;
+  }
+  
+  .sub1_port5 .img1 .pc {
+    display: none;
+  }
+
+  .sub1_port5 .img1 .mb {
+    display: block;
+  }
+
+  .sub1_port5 .img2 {
+    width: 100%;
+  }
+
+  .sub1_port5 .img3 {
+    margin-top: 40px;
+  }
+
+}
